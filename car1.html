@@ -3,36 +3,45 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Car 1 Details</title>
+  <title>2024 Mitsubishi Outlander Details</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <header>
-    <h1>Car 1 Details</h1>
-    <nav>
-      <a href="index.html">Home</a> |
-      <a href="compare.html">Compare</a>
+    <nav class="navbar">
+      <div class="logo">CarCompare</div>
+      <ul class="nav-links">
+        <li><a href="index.html">New Cars</a></li>
+        <li><a href="compare.html">Compare Cars</a></li>
+      </ul>
     </nav>
   </header>
 
   <main>
+    <h1>2024 Mitsubishi Outlander Details</h1>
     <div class="tab-container">
       <div class="tabs">
         <button class="tab-button active" data-tab="exterior">Exterior</button>
         <button class="tab-button" data-tab="interior">Interior</button>
       </div>
 
+      <!-- Exterior Section -->
       <div class="tab-content" id="exterior">
-        <img src="images/car1_exterior.jpg" alt="Car 1 Exterior" />
-        <p>Details about Car 1's exterior.</p>
+        <img src="images/car1_exterior.jpg" alt="2024 Mitsubishi Outlander Exterior" />
+        <p>The 2024 Mitsubishi Outlander boasts a bold design with dynamic lines, a signature front grille, and LED headlights that provide both style and safety.</p>
       </div>
 
+      <!-- Interior Section -->
       <div class="tab-content" id="interior" style="display: none;">
-        <img src="images/car1_interior.jpg" alt="Car 1 Interior" />
-        <p>Details about Car 1's interior.</p>
+        <img src="images/car1_interior.jpg" alt="2024 Mitsubishi Outlander Interior" />
+        <p>Inside, you'll find a spacious cabin with modern amenities, a user-friendly infotainment system, and premium materials for added comfort.</p>
       </div>
     </div>
   </main>
+
+  <footer>
+    <p>&copy; 2025 CarCompare</p>
+  </footer>
 
   <script src="js/script.js"></script>
 </body>
