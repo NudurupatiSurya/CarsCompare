@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Car 2 Details</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Car 2 Details</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="compare.html">Compare</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="tab-container">
+      <div class="tabs">
+        <button class="tab-button active" data-tab="exterior">Exterior</button>
+        <button class="tab-button" data-tab="interior">Interior</button>
+      </div>
+
+      <div class="tab-content" id="exterior">
+        <img src="images/car2_exterior.png" alt="Car 2 Exterior" />
+        <p>Details about Car 2's exterior.</p>
+      </div>
+
+      <div class="tab-content" id="interior" style="display: none;">
+        <img src="images/car2_interior.jpg" alt="Car 2 Interior" />
+        <p>Details about Car 2's interior.</p>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+/* Basic Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background: #f4f4f4;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Home Page Styles */
+  .car-list {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .car-card {
+    background: #fff;
+    padding: 10px;
+    width: 45%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .car-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Tab Styles for Car Detail Pages */
+  .tab-container {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .tabs {
+    margin-bottom: 20px;
+  }
+  
+  .tab-button {
+    padding: 10px 20px;
+    border: none;
+    background: #eee;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 3px;
+  }
+  
+  .tab-button.active {
+    background: #333;
+    color: #fff;
+  }
+  
+  .tab-content img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Compare Page Styles */
+  .compare-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .compare-column {
+    background: #fff;
+    padding: 20px;
+    width: 45%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .compare-column img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
